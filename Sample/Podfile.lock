@@ -1,0 +1,21 @@
+PODS:
+  - EALog (1.0.0):
+    - EALog/Core (= 1.0.0)
+    - EALog/EALogFormatter (= 1.0.0)
+  - EALog/Core (1.0.0)
+  - EALog/EALogFormatter (1.0.0):
+    - EALog/Core
+
+DEPENDENCIES:
+  - EALog (from `../`)
+
+EXTERNAL SOURCES:
+  EALog:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EALog: 1eb78b0e771b20f301bede09d690b3fe07074a25
+
+PODFILE CHECKSUM: 19edc55aee0e7ee549bdb75ef2c072e4124604a9
+
+COCOAPODS: 1.5.2
