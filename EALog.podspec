@@ -21,14 +21,9 @@ Pod::Spec.new do |s|
   s.swift_version       = '4.1'
   s.requires_arc        = true
 
-  s.default_subspecs = 'Core', 'EALogFormatter'
+  s.default_subspecs = 'Core'
 
   s.subspec 'Core' do |sp|
     sp.source_files  = 'EALog/Core/**/*.swift'
-  end
-
-  s.subspec 'EALogFormatter' do |sp|
-    sp.source_files  = 'EALog/EALogFormatter/**/*.swift'
-    sp.dependency      'EALog/Core'
   end
 end
